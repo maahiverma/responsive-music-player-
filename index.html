@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicWave</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-music"></i> MusicWave
+        </div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Artists</a></li>
+            <li><a href="#">Playlists</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Feel The Music</h1>
+    <p>Millions of songs. Unlimited vibes.</p>
+    <button>Start Listening</button>
+</section>
+
+<section class="songs">
+    <h2>Trending Songs</h2>
+
+    <div class="song-container">
+
+        <div class="song-card">
+            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f" alt="">
+            <h3>Midnight Beats</h3>
+            <p>Pop Music</p>
+            <button><i class="fa-solid fa-play"></i> Play</button>
+        </div>
+
+        <div class="song-card">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="">
+            <h3>Neon Dreams</h3>
+            <p>Electronic</p>
+            <button><i class="fa-solid fa-play"></i> Play</button>
+        </div>
+
+        <div class="song-card">
+            <img src="https://images.unsplash.com/photo-1501612780327-45045538702b" alt="">
+            <h3>Acoustic Soul</h3>
+            <p>Indie</p>
+            <button><i class="fa-solid fa-play"></i> Play</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="player">
+    <h2>Now Playing</h2>
+    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f" alt="">
+    <h3>Midnight Beats</h3>
+
+    <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+    </audio>
+</section>
+
+<footer>
+    <p> © 2026 MusicWave </p>
+    <p> Responsive Music Player Website by Maahi verma</p>
+</footer>
+
+</body>
+</html> 
